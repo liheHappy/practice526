@@ -1,0 +1,62 @@
+/*2017-5-15 lh*/
+html{
+    font-size:15.625vw;/*50px*/
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.88rem;
+    width: 100%;
+    background: #62e49e;
+}
+header h1{
+    color: #fff;
+    font-size: 0.3rem;
+}
+header a{
+    display: block;
+    height: 0.44rem;
+    width: 0.44rem;
+}
+header .icon_back{
+    background: url(../img/icon/icon_leftbtn.png) no-repeat;
+    background-size: 100%;
+}
+header .icon_personInfo{
+    background: url(../img/icon/icon_personInfo.png) no-repeat;
+    background-size: 100%;
+}
+
+#content{
+    flex-grow: 1;
+    background: pink;
+    height: calc(100vh - 1.86rem);
+}
+
+footer{
+    height:0.98rem;            /*98px，除以2*/
+    width: 100%;
+    background: #62e49e;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.98rem;
+    padding: 0;
+    margin: 0;
+    background: url(../img/background/bg_qiu.png) no-repeat;
+}
+footer ul li{
+    list-style: none;
+    font-size: 0.24rem;
+    color: #fff;
+}
